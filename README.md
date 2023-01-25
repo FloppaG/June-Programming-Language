@@ -1,7 +1,7 @@
 # June-Programming-Language
 A programming language with unbelievable speed, syntax and security.
 
-> *Warning*: This programming language is a joke - please do not use for actual projects.
+> **Warning**: This programming language is a joke - please do not use for actual projects.
 
 ## Unbelievable speed
 

@@ -29,3 +29,32 @@ I got bored.
 
 No.
 
+# Documentation
+
+If you actually want to use this, here's a short guide on how it works.
+
+To declare a variable:
+```py
+_ var_name : "Hello, World" ;
+```
+Fairly simple.
+
+If you want to print said variable:
+```py
+_ var_name : "Hello, World" ;
++ print : var_name, ;
+```
+
+Simple program to count 0-9:
+```py
+_ iterator : "0", ;
+
+* while : iterator != "10" {
+    + print : iterator, ;
+    * if : iterator == "3" {
+        + print : "3 is a nice number", ;
+    }
+    _ iterator : + sum : iterator, "1", ; ;
+}
+```
+You can run each file as a function, for example if you have a file called `function.june` you can run it using `+ function.june :;`
